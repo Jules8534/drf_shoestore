@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1> Shoes </h1>
+
+{% for shoe in shoes %}
+    <p>{{ shoe }}</p>
+{% empty %}
+    <p> No shoes have been added yet. </p>
+{% endfor %}
+
+
+{% endblock%}
