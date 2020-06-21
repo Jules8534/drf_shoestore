@@ -39,3 +39,4 @@ class ShoeSerializer(HyperlinkedModelSerializer):
                   'shoe_type',
                   'fasten_type'
                   )
+
