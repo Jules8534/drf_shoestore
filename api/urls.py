@@ -15,7 +15,7 @@ router.register(r'manufacturer', ManufacturerViewSet, basename='manufacturer')
 router.register(r'shoe', ShoeViewSet, basename='shoe')
 router.register(r'shoecolor', ShoeColorViewSet)
 router.register(r'shoetype', ShoeTypeViewSet)
-router.register(f'user', UserViewSet)
+router.register(r'user', UserViewSet)
 
 urlpatterns = [
     url(r'^api/', include(router.urls))
